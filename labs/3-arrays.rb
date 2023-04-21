@@ -2,6 +2,28 @@
 # is the same as where this file is located and then run:
 # ruby 3-arrays.rb
 
+# arrays are lists of things 
+#favorite_foods = ["tacos", "burritos", "nachos"]
+#puts favorite_foods.inspect
+
+#numbers = [4, 8, 15 16, 23, 42]
+#puts numbers.inspect
+
+#mixed_array = ["tacos", 12, true] 
+#puts mixed_array.inspect 
+
+#shopping_lists = [["milk", "eggs"], ["soap", "shampoo"]]
+#puts shoppinglists.inspect 
+
+
+#accessing the array 
+#puts favorite_foods[-1]
+# puts shopping_lists[1][1]
+
+# add to the array 
+# favorite_foods.push("more tacos")
+# favorite_foods = favorite_foods + ["fries", "ramen"]
+
 # EXERCISE
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one
@@ -15,3 +37,18 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon", "bananas", "cheese"]
+rachel_list = ["beer", "cookies", "apples", "milk", "bacon"]
+grocery_list = [my_list + rachel_list]
+
+unique_list = grocery_list.uniq 
+
+sorted_unique_list = unique_list.sort
+
+puts sorted_unique_list.inspect 
+
+
+# make a unique list 
+#sorted_unique_list = sorted_list.uniq
+#puts sorted_unique_list.inspect
