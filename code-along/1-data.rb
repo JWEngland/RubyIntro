@@ -13,7 +13,17 @@
 # Combine strings together
 
 # Variables
+food = "tacos"
+puts food
+
+X = 5
+Y = 3
+X = 10
+Y = 40
+puts x + y 
 
 # Combine strings and variables
+puts "#{x + y} tacos"
 
 # String manipulation
+puts "computers are hard" . reverse 

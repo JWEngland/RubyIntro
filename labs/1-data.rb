@@ -15,3 +15,13 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# dice numbers (variables)
+X = rand(1..6)
+Y = rand(1..6) 
+
+puts X 
+puts Y
+#string
+puts "Hello, world!" 
+
