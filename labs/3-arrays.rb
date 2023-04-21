@@ -39,13 +39,17 @@
 # https://ruby-doc.org/core-2.7.0/Array.html
 
 my_list = ["milk", "eggs", "bacon", "bananas", "cheese"]
-rachel_list = ["beer", "cookies", "apples", "milk", "bacon"]
-grocery_list = [my_list + rachel_list]
+puts my_list.inspect 
 
+rachel_list = ["beer", "cookies", "apples", "milk", "bacon"]
+puts rachel_list.inspect 
+
+grocery_list = my_list + rachel_list
+puts grocery_list.inspect 
 unique_list = grocery_list.uniq 
+puts unique_list.inspect 
 
 sorted_unique_list = unique_list.sort
-
 puts sorted_unique_list.inspect 
 
 
