@@ -22,6 +22,7 @@ Y = rand(1..6)
 
 puts X 
 puts Y
+puts X + Y 
 #string
 puts "Hello, world!" 
 
