@@ -17,12 +17,11 @@
 # puts "Hello, world"
 
 # dice numbers (variables)
-X = rand(1..6)
-Y = rand(1..6) 
+die1 = rand(1..6)
+die2 = rand(1..6) 
 
-puts X 
-puts Y
-puts X + Y 
+puts die1 , die2
+puts die1 + die2
 #string
 puts "Hello, world!" 
 
